@@ -28,13 +28,11 @@ install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man1}
 install getnews groupstat $RPM_BUILD_ROOT%{_bindir}
 install groupstat.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
-gzip -9nf copyright* TODO README BUGS CHANGELOG
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc copyright* TODO README BUGS CHANGELOG
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*

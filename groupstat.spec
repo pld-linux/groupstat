@@ -7,21 +7,19 @@ License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.locl.net/homes/alexdw/comp/groupstat/download/%{name}_%{version}.tar.gz
 # Source0-md5:	40f4a2f4bfa2b3f7ea0806ef4fa172c7
-Url:		http://www.locl.net/homes/alexdw/
+URL:		http://www.locl.net/homes/alexdw/
 Requires:	perl-News-Scan
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-GroupStat is an advenced statistic program for news groups
+GroupStat is an advanced statistic program for news groups.
 
 %description -l pl
 GroupStat jest zaawansowanym programem do prowadzenia statystyk news.
 
 %prep
 %setup -q -n %{name}_%{version}
-
-%build
 
 %install
 rm -rf $RPM_BUILD_ROOT

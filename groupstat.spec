@@ -1,3 +1,4 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	GroupStat
 Summary(pl):	GroupStat
 Name:		groupstat
@@ -5,9 +6,9 @@ Version:	0.12.1
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
-Source0:	http://www.locl.net/homes/alexdw/comp/groupstat/download/%{name}_%{version}.tar.gz
+Source0:	http://www.mgzi.net/comp/groupstat/download/%{name}_%{version}.tar.gz
 # Source0-md5:	40f4a2f4bfa2b3f7ea0806ef4fa172c7
-URL:		http://www.locl.net/homes/alexdw/
+URL:		http://www.mgzi.net/comp/groupstat/
 Requires:	perl-News-Scan
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

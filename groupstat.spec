@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.locl.net/homes/alexdw/comp/groupstat/download/%{name}_%{version}.tar.gz
+# Source0-md5:	40f4a2f4bfa2b3f7ea0806ef4fa172c7
 Url:		http://www.locl.net/homes/alexdw/
 Requires:	perl-News-Scan
 BuildArch:	noarch

@@ -1,4 +1,4 @@
-Summary:	Group Stat
+Summary:	GroupStat
 Summary(pl):	GroupStat
 Name:		groupstat
 Version:	0.12.1
@@ -7,7 +7,8 @@ License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source0:	%{name}_%{version}.tar.gz
+Source0:	http://www.locl.net/homes/alexdw/comp/groupstat/download/%{name}_%{version}.tar.gz
+Url:		http://www.locl.net/homes/alexdw/
 Requires:	perl-News-Scan
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

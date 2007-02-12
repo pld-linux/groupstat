@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	GroupStat
-Summary(pl):	GroupStat
+Summary(pl.UTF-8):   GroupStat
 Name:		groupstat
 Version:	0.12.1
 Release:	1
@@ -16,7 +16,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 GroupStat is an advanced statistic program for news groups.
 
-%description -l pl
+%description -l pl.UTF-8
 GroupStat jest zaawansowanym programem do prowadzenia statystyk news.
 
 %prep

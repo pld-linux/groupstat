@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	GroupStat
-Summary(pl.UTF-8):   GroupStat
+Summary(pl.UTF-8):	GroupStat
 Name:		groupstat
 Version:	0.12.1
 Release:	1

@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	GroupStat
 Summary(pl.UTF-8):	GroupStat
 Name:		groupstat
